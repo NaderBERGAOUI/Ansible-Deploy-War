@@ -1,0 +1,8 @@
+---
+
+- name: ping Tomcat Server
+  ping:
+  register: results
+
+- debug:
+    msg: "{{results}}"

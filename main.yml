@@ -1,0 +1,10 @@
+---
+
+- name: ping Tomcat Server
+  hosts: ubuntu
+  become: true
+
+  roles:
+    - ping
+    - deploy-tomcat
+   

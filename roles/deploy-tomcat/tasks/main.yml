@@ -1,0 +1,6 @@
+---
+
+- name: Send war file to Tomcat server
+  copy: 
+    src: "{{path_war_file}}"
+    dest: /opt/tomcat/latest/webapps
